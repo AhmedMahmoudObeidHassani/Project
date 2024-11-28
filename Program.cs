@@ -4,12 +4,27 @@ namespace Project
 {
     public class Book
     {
-        public string Title;
-        public string Author;
-        public Book(string title, string author)
+        public string bookTitle;
+        public string bookAuthor;
+        public Book(string booktitle, string bookauthor)
         {
-            Title = title;
-            Author = author;
+            bookTitle = booktitle;
+            bookAuthor = bookauthor;
+        }
+        internal class Program
+        {
+            static void Main(string[] args)
+            {
+                List<Book> library = new List<Book>();
+
+                while (true)
+                {
+
+                }
+                
+                   
+
+            }
         }
     }
 }
