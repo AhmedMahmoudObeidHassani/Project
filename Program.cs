@@ -37,7 +37,7 @@ namespace Project
                         library.Add(new Book(title, author));
                         Console.WriteLine("Book added!");
                     }
-                    else if (choice == "2") // Search Book
+                    else if (choice == "2") 
                     {
                         Console.Write("Enter search term (Title or Author): ");
                         string searchTerm = Console.ReadLine();
